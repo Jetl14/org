@@ -1,0 +1,22 @@
+.formulario{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 50px;
+    flex-wrap: wrap;/*Si ya no cabe una linea lo baja*/
+    gap: 20px;
+}
+.formulario form{
+    max-width: 80%;
+    background-color: #F7F7F7;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%); /* sombra hacia afuera*/
+    border-radius: 20px; /* borde redondeado*/
+    padding: 8px 100px;/* espacio hacia dentro*/
+    flex: 1;
+
+}
+.formulario h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #212121;
+    
+}
